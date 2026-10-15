@@ -48,4 +48,3 @@ El script lee `data/Datos_pr.csv`, imprime las métricas y genera `images/model_
 ## Límites
 
 La encuesta y las etiquetas provienen del mismo conjunto entregado en clase. No se conoce su fuente original ni cómo se asignaron los tipos. La comparación mide desempeño en una partición de este archivo, no calidad de una evaluación psicológica ni resultados esperables en personas nuevas.
-
