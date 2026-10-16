@@ -30,6 +30,12 @@ El Random Forest reproduce las etiquetas de este archivo con mayor exactitud que
 
 Este proyecto me permitió comparar modelos sobre el mismo conjunto de prueba y ver por qué una métrica alta necesita contexto sobre el origen de los datos y las etiquetas. Si lo repitiera, documentaría cómo se asignó cada tipo de personalidad y contrastaría el modelo con respuestas obtenidas de otra fuente.
 
+## Habilidades técnicas aplicadas
+
+- **Preparación con Pandas:** revisé valores faltantes y excluí `Response Id`, un identificador de fila que no debe usarse para predecir la etiqueta.
+- **Modelado con scikit-learn:** hice una partición estratificada de entrenamiento y prueba y comparé una referencia de clase mayoritaria, un árbol de decisión y Random Forest.
+- **Evaluación y visualización:** calculé exactitud y F1 macro sobre los mismos 18.000 registros de prueba y mostré la comparación con Matplotlib.
+
 ## Mi contribución
 
 El docente del módulo entregó los datos y la consigna. En mi trabajo final traduje las preguntas, exploré la distribución de las clases y comparé un árbol de decisión, Bagging y Random Forest. El [notebook](notebooks/trabajo_final.ipynb) muestra ese trabajo; el [script](analysis.py) permite repetir una comparación breve y generar la figura de este README.
